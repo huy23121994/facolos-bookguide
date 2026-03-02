@@ -192,8 +192,7 @@ export const foodSpots: FoodSpot[] = [
     name: "Train Track Cafe",
     description:
       "A cafe right next to the railway tracks — watch trains pass by for a uniquely Hanoi experience.",
-    image:
-      "https://images.unsplash.com/photo-1565695925686-6d7b5a1f1607?w=200&q=80",
+    image: "/images/food-train-track.jpg",
     mapUrl: "https://maps.app.goo.gl/VhPS94qUGZaeVnN96",
   },
   {
@@ -208,8 +207,7 @@ export const foodSpots: FoodSpot[] = [
     name: "K-Pub Chicken",
     description:
       "Korean-style fried chicken with bold flavors — a tasty option near the venue.",
-    image:
-      "https://images.unsplash.com/photo-1626082927389-6cd097cee6b5?w=200&q=80",
+    image: "/images/food-kpub.jpg",
     mapUrl: "https://maps.app.goo.gl/rU6BgnTYeuUq8iwi7",
   },
   {
