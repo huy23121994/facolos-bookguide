@@ -5,12 +5,12 @@ interface Props {
 }
 
 const links = [
-  { href: "#welcome", label: "Lời ngỏ" },
-  { href: "#venue", label: "Địa điểm" },
-  { href: "#about", label: "Về chúng tôi" },
-  { href: "#hotels", label: "Khách sạn" },
-  { href: "#explore", label: "Khám phá" },
-  { href: "#contact", label: "Liên hệ" },
+  { href: "#welcome", label: "Welcome" },
+  { href: "#venue", label: "Venue" },
+  { href: "#about", label: "About Us" },
+  { href: "#hotels", label: "Hotels" },
+  { href: "#explore", label: "Explore" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export default function TopNav({ activeSection }: Props) {

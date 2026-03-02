@@ -6,10 +6,10 @@ export default function Contact() {
     <section id="contact" className="py-[var(--section-pad)] bg-dark text-white relative overflow-hidden">
       <div className="container">
         <RevealOnScroll>
-          <span className="section-label !text-accent-light">Hỗ trợ</span>
-          <h2 className="section-title !text-white">Liên hệ</h2>
+          <span className="section-label !text-accent-light">Support</span>
+          <h2 className="section-title !text-white">Contact</h2>
           <p className="section-desc !text-white/55">
-            Nếu bạn cần hỗ trợ về giải đấu, di chuyển hoặc y tế, vui lòng liên hệ
+            If you need help with the tournament, transportation, or medical assistance, please reach out
           </p>
         </RevealOnScroll>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-12 mt-10 items-start">

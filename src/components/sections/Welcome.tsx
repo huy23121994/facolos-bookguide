@@ -7,16 +7,16 @@ export default function Welcome() {
       <div className="container">
         <RevealOnScroll>
           <SectionHeader
-            label="Lời ngỏ"
+            label="Introduction"
             title=""
-            titleHtml="Chào mừng đến với<br>Hà Nội"
+            titleHtml="Welcome to<br>Hanoi"
           />
         </RevealOnScroll>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-15 items-center mt-12">
           <RevealOnScroll delay={1} className="relative rounded-2xl overflow-hidden aspect-[4/5] md:aspect-[4/5] max-w-[400px] md:max-w-none mx-auto md:mx-0">
             <img
               src="/images/place-van-mieu.jpg"
-              alt="Hà Nội"
+              alt="Hanoi"
               loading="lazy"
               className="w-full h-full object-cover"
             />
@@ -24,28 +24,26 @@ export default function Welcome() {
           </RevealOnScroll>
           <RevealOnScroll delay={2}>
             <h3 className="font-display text-[1.6rem] font-semibold mb-4 leading-[1.3]">
-              Nơi giao thoa giữa nét cổ kính và nhịp sống hiện đại
+              Where ancient charm meets modern life
             </h3>
             <p className="text-mid-gray leading-[1.8] mb-4 font-light">
-              Facolos rất vinh dự được đồng hành cùng các bạn trong hành trình
-              đến Việt Nam để tham dự và chuẩn bị cho giải đấu PPA Asia sắp
-              tới.
+              Facolos is honored to accompany you on your journey to Vietnam to
+              attend and prepare for the upcoming PPA Asia tournament.
             </p>
             <p className="text-mid-gray leading-[1.8] mb-4 font-light">
-              Chúng tôi hy vọng Hà Nội không chỉ là điểm đến thi đấu, mà còn
-              là nơi mang đến những trải nghiệm đáng nhớ trước, trong và sau
-              giải đấu.
+              We hope Hanoi will be more than just a competition destination —
+              it will be a place full of memorable experiences before, during,
+              and after the tournament.
             </p>
             <p className="text-mid-gray leading-[1.8] mb-4 font-light">
-              Trong thời gian lưu trú, bên cạnh việc tập trung cho phong độ tốt
-              nhất, bạn có thể dành thời gian khám phá những địa danh đặc trưng
-              của thành phố, cảm nhận nhịp sống địa phương và thưởng thức các
-              món ăn nổi tiếng như phở, bún chả hay cà phê trứng — những hương
-              vị rất riêng của Hà Nội.
+              During your stay, alongside focusing on peak performance, you can
+              explore the city's iconic landmarks, feel the local rhythm of
+              life, and savor famous dishes like pho, bun cha, or egg coffee —
+              flavors unique to Hanoi.
             </p>
             <p className="text-charcoal font-medium">
-              Facolos luôn sẵn sàng hỗ trợ để hành trình của bạn tại Việt Nam
-              trở nên thuận tiện, thoải mái và trọn vẹn nhất.
+              Facolos is always ready to support you so your journey in Vietnam
+              is convenient, comfortable, and truly unforgettable.
             </p>
           </RevealOnScroll>
         </div>

@@ -9,9 +9,9 @@ export default function About() {
       <div className="container">
         <RevealOnScroll>
           <SectionHeader
-            label="Đối tác"
-            title="Về chúng tôi"
-            description="Facolos & Pickle Global — đối tác tin cậy trong hành trình Pickleball chuyên nghiệp"
+            label="Partners"
+            title="About Us"
+            description="Facolos & Pickle Global — your trusted partners in the professional Pickleball journey"
           />
         </RevealOnScroll>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
@@ -19,7 +19,7 @@ export default function About() {
             <RevealOnScroll key={card.title} delay={i + 1} className="group bg-off-white rounded-[20px] overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,.06)]">
               <div className="relative overflow-hidden">
                 <img
-                  className="w-full aspect-[16/10] object-cover block transition-transform duration-500 group-hover:scale-105"
+                  className="w-full aspect-[16/10] object-contain block transition-transform duration-500 group-hover:scale-105"
                   src={card.image}
                   alt={card.title}
                   loading="lazy"

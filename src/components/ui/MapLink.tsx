@@ -4,7 +4,7 @@ interface Props {
   variant?: "default" | "button";
 }
 
-export default function MapLink({ href, label = "Xem bản đồ", variant = "default" }: Props) {
+export default function MapLink({ href, label = "View map", variant = "default" }: Props) {
   if (variant === "button") {
     return (
       <a

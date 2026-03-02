@@ -9,9 +9,9 @@ export default function Explore() {
       <div className="container">
         <RevealOnScroll>
           <SectionHeader
-            label="Trải nghiệm"
-            title="Khám phá Hà Nội"
-            description="Những địa danh nổi tiếng và món ăn nhất định phải thử khi đến thủ đô"
+            label="Experience"
+            title="Explore Hanoi"
+            description="Famous landmarks and must-try dishes when visiting the capital"
           />
         </RevealOnScroll>
 
@@ -22,7 +22,7 @@ export default function Explore() {
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
               <circle cx="12" cy="10" r="3" />
             </svg>
-            Địa điểm phải đến
+            Must-Visit Places
           </h3>
         </RevealOnScroll>
         <div className="grid grid-cols-1 sm:grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-5">
@@ -46,7 +46,7 @@ export default function Explore() {
                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
                       <circle cx="12" cy="10" r="3" />
                     </svg>
-                    Xem bản đồ
+                    View map
                   </div>
                 </div>
                 <div className="p-4.5 px-5 pb-5.5">
@@ -73,7 +73,7 @@ export default function Explore() {
               <line x1="10" y1="1" x2="10" y2="4" />
               <line x1="14" y1="1" x2="14" y2="4" />
             </svg>
-            Món ngon nhất định thử
+            Must-Try Food
           </h3>
         </RevealOnScroll>
         <div className="grid grid-cols-1 sm:grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-5">
@@ -109,7 +109,7 @@ export default function Explore() {
                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
                       <circle cx="12" cy="10" r="3" />
                     </svg>
-                    Bản đồ
+                    Map
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="w-3 h-3 shrink-0">
                       <path d="M7 17L17 7M17 7H7M17 7v10" />
                     </svg>

@@ -32,50 +32,50 @@ export interface AboutCard {
 export const hotels: Hotel[] = [
   {
     name: "Dinh Elegant Hanoi Hotel",
-    address: "4, Lô 15D Trung Yên, Trung Hòa, Việt Nam",
-    price: "1,076,000 VNĐ / đêm",
+    address: "4, Lot 15D Trung Yen, Trung Hoa, Vietnam",
+    price: "1,076,000 VND / night (~$43 USD)",
     images: ["/images/hotel-1.jpg"],
     mapUrl: "https://maps.app.goo.gl/wwfQBPJMFLca1R1N9",
   },
   {
-    name: "Khách sạn Grand Dragon Hanoi",
-    address: "21 Lê Văn Lương, Nhân Chính, Thanh Xuân, Việt Nam",
-    price: "880,000 VNĐ / đêm",
+    name: "Grand Dragon Hanoi Hotel",
+    address: "21 Le Van Luong, Nhan Chinh, Thanh Xuan, Vietnam",
+    price: "880,000 VND / night (~$35 USD)",
     images: ["/images/hotel-2.jpg"],
     mapUrl: "https://maps.app.goo.gl/xBPbRuiaKsodY4LQ6",
   },
   {
-    name: "Căn hộ dịch vụ HB",
-    address: "12 Trần Quý Kiên, Việt Nam",
-    price: "863,000 VNĐ / đêm",
+    name: "HB Serviced Apartment",
+    address: "12 Tran Quy Kien, Vietnam",
+    price: "863,000 VND / night (~$35 USD)",
     images: ["/images/hotel-3.jpg"],
     mapUrl: "https://maps.app.goo.gl/EE1yCeEDG7CnGeQF7",
   },
   {
     name: "22Housing Residence Suites",
-    address: "352 Bưởi Street, Hà Nội, Việt Nam",
-    price: "802,000 VNĐ / đêm",
+    address: "352 Buoi Street, Hanoi, Vietnam",
+    price: "802,000 VND / night (~$32 USD)",
     images: ["/images/hotel-4.jpg"],
     mapUrl: "https://maps.app.goo.gl/mA9gZXG6Xki3cjv48",
   },
   {
-    name: "Khách sạn Adeline",
-    address: "12 Nguyễn Chánh, Việt Nam",
-    price: "804,000 – 1,026,000 VNĐ / đêm",
+    name: "Adeline Hotel",
+    address: "12 Nguyen Chanh, Vietnam",
+    price: "804,000 – 1,026,000 VND / night (~$32–41 USD)",
     images: ["/images/hotel-5.jpg"],
     mapUrl: "https://maps.app.goo.gl/fs7ZS7kqxckpKgZXA",
   },
   {
     name: "Sheraton Hanoi West",
-    address: "Hà Nội, Việt Nam",
-    price: "4,623,029 ₫ / đêm (~$185 USD)",
+    address: "Hanoi, Vietnam",
+    price: "4,623,029 VND / night (~$185 USD)",
     images: ["/images/hotel-sheraton.jpg"],
     mapUrl: "https://maps.app.goo.gl/CYoC9WytyTQRWND27",
   },
   {
-    name: "Vinhomes Skylake Hà Nội — Gem Apartment",
-    address: "Hà Nội, Việt Nam",
-    price: "2,167,200 ₫ / đêm (~$87 USD)",
+    name: "Vinhomes Skylake Hanoi — Gem Apartment",
+    address: "Hanoi, Vietnam",
+    price: "2,167,200 VND / night (~$87 USD)",
     images: ["/images/hotel-vinhomes.jpg"],
     mapUrl: "https://maps.app.goo.gl/GEpnJvdJj2XykCfq5",
   },
@@ -83,58 +83,58 @@ export const hotels: Hotel[] = [
 
 export const places: Place[] = [
   {
-    name: "Hồ Hoàn Kiếm",
+    name: "Hoan Kiem Lake",
     description:
-      "Biểu tượng của Hà Nội, được ví như trái tim của thủ đô với khung cảnh yên bình và không gian đi dạo lý tưởng giữa lòng thành phố.",
+      "The symbol of Hanoi, often called the heart of the capital — a peaceful setting and ideal walking spot in the center of the city.",
     image: "/images/place-hoan-kiem.jpg",
     mapUrl: "https://maps.app.goo.gl/raLPonLiGMsDpCeX8",
   },
   {
-    name: "Văn Miếu Quốc Tử Giám",
+    name: "Temple of Literature",
     description:
-      "Trường đại học đầu tiên của Việt Nam, biểu tượng văn hóa – giáo dục hơn 1000 năm. Kiến trúc cổ, không gian yên tĩnh, rất hợp chụp ảnh.",
+      "Vietnam's first university, a cultural and educational icon for over 1,000 years. Ancient architecture, serene atmosphere — perfect for photos.",
     image: "/images/place-van-mieu.jpg",
     mapUrl: "https://maps.app.goo.gl/HrrJpbmhJxfwc2PKA",
   },
   {
-    name: "Lăng Chủ tịch Hồ Chí Minh",
+    name: "Ho Chi Minh Mausoleum",
     description:
-      "Khu quảng trường Ba Đình rộng lớn, trang nghiêm – nơi gắn với lịch sử hiện đại Việt Nam.",
+      "The grand Ba Dinh Square — solemn and steeped in Vietnam's modern history.",
     image: "/images/place-lang-bac.jpg",
     mapUrl: "https://maps.google.com/?q=Ho+Chi+Minh+Mausoleum+Hanoi",
   },
   {
-    name: "Phố đi bộ Hồ Gươm",
+    name: "Hoan Kiem Walking Street",
     description:
-      "Không gian đi bộ sôi động vào cuối tuần, nơi bạn hòa mình vào nhịp sống Hà Nội với hoạt động đường phố và ẩm thực địa phương.",
+      "A lively pedestrian zone on weekends where you can immerse yourself in Hanoi's street life, food, and culture.",
     image: "/images/place-pho-di-bo.jpg",
     mapUrl: "https://maps.google.com/?q=Pho+di+bo+Ho+Guom+Hanoi",
   },
   {
-    name: "Nhà Hát Lớn Hà Nội",
+    name: "Hanoi Opera House",
     description:
-      "Công trình kiến trúc Pháp cổ nổi bật giữa trung tâm thủ đô, sang trọng và ấn tượng.",
+      "A stunning French colonial architecture landmark in the heart of the capital — elegant and impressive.",
     image: "/images/place-opera-house.jpg",
     mapUrl: "https://maps.app.goo.gl/edRzzoUPNx9oBqV57",
   },
   {
-    name: "Chùa Một Cột",
+    name: "One Pillar Pagoda",
     description:
-      "Ngôi chùa độc đáo với kiến trúc một cột giữa hồ sen, mang đậm nét văn hóa Việt Nam.",
+      "A unique pagoda built on a single pillar in a lotus pond — a deeply cultural symbol of Vietnam.",
     image: "/images/place-chua-mot-cot.jpg",
     mapUrl: "https://maps.app.goo.gl/UQZr5QSZvznCFHPC9",
   },
   {
-    name: "Hồ Tây",
+    name: "West Lake",
     description:
-      "Hồ nước lớn nhất Hà Nội, nổi tiếng với khung cảnh hoàng hôn lãng mạn và không gian thư giãn.",
+      "Hanoi's largest lake, famous for its romantic sunset views and relaxing atmosphere.",
     image: "/images/place-ho-tay.jpg",
     mapUrl: "https://maps.app.goo.gl/Amk1x6nHZ9ee8kbR7",
   },
   {
-    name: "Chợ Đồng Xuân",
+    name: "Dong Xuan Market",
     description:
-      "Khu chợ lâu đời nằm trong phố cổ, buôn bán sầm uất đủ mọi mặt hàng.",
+      "A historic market in the Old Quarter, bustling with trade and all kinds of goods.",
     image: "/images/place-dong-xuan.jpg",
     mapUrl: "https://maps.app.goo.gl/cGNhos2HooUEhDvW7",
   },
@@ -142,32 +142,32 @@ export const places: Place[] = [
 
 export const foodSpots: FoodSpot[] = [
   {
-    name: "Phở Thìn Lò Đúc",
+    name: "Pho Thin Lo Duc",
     description:
-      "Quán phở bò nổi tiếng với hương vị đậm đà, nước dùng béo thơm và phong cách xào thịt độc đáo.",
+      "Famous beef pho with rich broth and a unique stir-fried beef style.",
     image:
       "https://images.unsplash.com/photo-1555126634-323283e090fa?w=200&q=80",
     mapUrl: "https://maps.app.goo.gl/fFQVc1mAntrUSnMS9",
   },
   {
-    name: "Bún chả Hương Liên",
+    name: "Bun Cha Huong Lien",
     description:
-      "Quán bún chả nổi tiếng với thịt nướng thơm, nước chấm đậm vị — từng được Tổng thống Obama ghé thăm.",
+      "Famous bun cha with fragrant grilled pork and savory dipping sauce — once visited by President Obama.",
     image:
       "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=200&q=80",
     mapUrl: "https://maps.app.goo.gl/pQxLHm82k41qfVBm6",
   },
   {
-    name: "Bánh mì 25",
+    name: "Banh Mi 25",
     description:
-      "Tiệm bánh mì nổi tiếng trong phố cổ, phù hợp khách quốc tế, dễ ăn và đậm vị Việt.",
+      "A famous banh mi shop in the Old Quarter — great for international visitors, easy to eat, and full of Vietnamese flavor.",
     image: "/images/food-banh-mi.jpg",
     mapUrl: "https://maps.google.com/?q=Banh+Mi+25+Hanoi",
   },
   {
     name: "Hanoi Corner Restaurant",
     description:
-      "Nhà hàng trong phố cổ, phục vụ đa dạng món Việt truyền thống trong không gian ấm cúng.",
+      "A restaurant in the Old Quarter serving a wide variety of traditional Vietnamese dishes in a cozy setting.",
     image:
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&q=80",
     mapUrl: "https://maps.google.com/?q=Hanoi+Corner+Restaurant",
@@ -175,7 +175,7 @@ export const foodSpots: FoodSpot[] = [
   {
     name: "Cafe Minh",
     description:
-      "Cà phê phong cách Hà Nội xưa, không gian mộc mạc yên tĩnh, thích hợp thưởng thức cà phê truyền thống.",
+      "Old Hanoi-style coffee with a rustic, quiet atmosphere — perfect for enjoying traditional Vietnamese coffee.",
     image:
       "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=200&q=80",
     mapUrl: "https://maps.google.com/?q=Cafe+Minh+Hanoi",
@@ -183,23 +183,23 @@ export const foodSpots: FoodSpot[] = [
   {
     name: "Tung's Kitchen",
     description:
-      "Món Việt & chay đa dạng, phù hợp khách quốc tế và vận động viên có chế độ ăn đặc biệt.",
+      "Diverse Vietnamese and vegetarian dishes — great for international visitors and athletes with special diets.",
     image:
       "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=200&q=80",
     mapUrl: "https://maps.google.com/?q=Tungs+Kitchen+Hanoi",
   },
   {
-    name: "Train Track Café",
+    name: "Train Track Cafe",
     description:
-      "Quán nằm sát khu đường ray, view rõ tàu đi qua — trải nghiệm độc đáo chỉ có ở Hà Nội.",
+      "A cafe right next to the railway tracks — watch trains pass by for a uniquely Hanoi experience.",
     image:
       "https://images.unsplash.com/photo-1565695925686-6d7b5a1f1607?w=200&q=80",
     mapUrl: "https://maps.app.goo.gl/VhPS94qUGZaeVnN96",
   },
   {
-    name: "Lotteria Mỹ Đình",
+    name: "Lotteria My Dinh",
     description:
-      "Fast-food gần địa điểm thi đấu, mở cửa 08:00–22:30 — tiện lợi cho bữa ăn nhanh.",
+      "Fast food near the competition venue, open 08:00–22:30 — convenient for a quick meal.",
     image:
       "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=200&q=80",
     mapUrl: "https://maps.app.goo.gl/gkTMsUrD7aTUZAWt8",
@@ -207,15 +207,15 @@ export const foodSpots: FoodSpot[] = [
   {
     name: "K-Pub Chicken",
     description:
-      "Gà rán kiểu Hàn Quốc, hương vị đậm đà — lựa chọn gần sân thi đấu.",
+      "Korean-style fried chicken with bold flavors — a tasty option near the venue.",
     image:
       "https://images.unsplash.com/photo-1626082927389-6cd097cee6b5?w=200&q=80",
     mapUrl: "https://maps.app.goo.gl/rU6BgnTYeuUq8iwi7",
   },
   {
-    name: "Milano Coffee Trần Hữu Dực",
+    name: "Milano Coffee Tran Huu Duc",
     description:
-      "Cà phê Việt Nam quen thuộc, gần địa điểm thi đấu — thích hợp nghỉ ngơi giữa các trận.",
+      "A familiar Vietnamese coffee chain near the venue — great for resting between matches.",
     image:
       "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=200&q=80",
     mapUrl: "https://maps.app.goo.gl/g9RxuAjWDQCw16nNA",
@@ -224,20 +224,20 @@ export const foodSpots: FoodSpot[] = [
 
 export const aboutCards: AboutCard[] = [
   {
-    title: "Facolos — Đối tác tin cậy",
+    title: "Facolos — Your Trusted Partner",
     description:
-      "Facolos là thương hiệu hàng đầu trong việc cung cấp dụng cụ Pickleball chuyên nghiệp, tiên phong thúc đẩy phong trào thể thao hiện đại tại Việt Nam.",
-    addressLabel: "Văn phòng Hà Nội:",
-    address: "282 Nguyễn Huy Tưởng, Q. Thanh Xuân, Hà Nội",
+      "Facolos is a leading brand in professional Pickleball equipment, pioneering the modern sports movement in Vietnam.",
+    addressLabel: "Hanoi Office:",
+    address: "282 Nguyen Huy Tuong, Thanh Xuan District, Hanoi",
     image: "/images/about-facolos.jpg",
     mapUrl: "https://maps.app.goo.gl/vt7AGNdy2fDrxtU28",
   },
   {
-    title: "Pickle Global — Nơi khởi nguồn chất lượng",
+    title: "Pickle Global — Where Quality Begins",
     description:
-      "Nhà máy Pickle Global tự hào là đơn vị sản xuất dụng cụ Pickleball quy mô lớn, áp dụng công nghệ tiên tiến nhất để mang lại sản phẩm đạt chuẩn thi đấu quốc tế.",
-    addressLabel: "Địa chỉ:",
-    address: "Đường D3, Khu D, KCN Phố Nối A, Như Quỳnh, Hưng Yên",
+      "Pickle Global's factory is a large-scale Pickleball equipment manufacturer, using cutting-edge technology to deliver products that meet international competition standards.",
+    addressLabel: "Address:",
+    address: "D3 Road, Zone D, Pho Noi A Industrial Park, Nhu Quynh, Hung Yen",
     image: "/images/about-factory.jpg",
     mapUrl: "https://maps.app.goo.gl/cr8AsiA46kM9jAUMA",
   },
@@ -245,12 +245,12 @@ export const aboutCards: AboutCard[] = [
 
 export const contact = {
   phone: {
-    name: "Võ Trần Quỳnh Trang",
+    name: "Vo Tran Quynh Trang",
     number: "0986 120 954",
     tel: "0986120954",
   },
   email: {
-    label: "Liên hệ qua email",
+    label: "Contact via email",
     address: "Jessica@facolos.com",
   },
 };

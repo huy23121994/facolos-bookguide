@@ -69,7 +69,7 @@ function HotelImageCarousel({ images, name }: { images: string[]; name: string }
                 ? "bg-white w-5"
                 : "bg-white/50 hover:bg-white/80"
             }`}
-            aria-label={`Xem ảnh ${idx + 1}`}
+            aria-label={`View photo ${idx + 1}`}
           />
         ))}
       </div>
@@ -79,7 +79,7 @@ function HotelImageCarousel({ images, name }: { images: string[]; name: string }
           <button
             onClick={() => goTo(current - 1)}
             className={`absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-black/30 hover:bg-black/50 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 border-none cursor-pointer ${current === 0 ? "!opacity-0 pointer-events-none" : ""}`}
-            aria-label="Ảnh trước"
+            aria-label="Previous photo"
           >
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} className="w-4 h-4">
               <path d="M15 18l-6-6 6-6" />
@@ -88,7 +88,7 @@ function HotelImageCarousel({ images, name }: { images: string[]; name: string }
           <button
             onClick={() => goTo(current + 1)}
             className={`absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-black/30 hover:bg-black/50 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 border-none cursor-pointer ${current === images.length - 1 ? "!opacity-0 pointer-events-none" : ""}`}
-            aria-label="Ảnh tiếp"
+            aria-label="Next photo"
           >
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} className="w-4 h-4">
               <path d="M9 18l6-6-6-6" />
@@ -110,9 +110,9 @@ export default function Hotels() {
       <div className="container">
         <RevealOnScroll>
           <SectionHeader
-            label="Lưu trú"
-            title="Không gian nghỉ ngơi"
-            description="Những lựa chọn khách sạn gần địa điểm thi đấu, tiện nghi và thoải mái"
+            label="Accommodation"
+            title="Where to Stay"
+            description="Hotel options near the competition venue — convenient and comfortable"
           />
         </RevealOnScroll>
         <div className="grid grid-cols-1 sm:grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-6 mt-10">
@@ -144,7 +144,7 @@ export default function Hotels() {
                   {hotel.price}
                 </span>
                 <div>
-                  <MapLink href={hotel.mapUrl} variant="button" label="Bản đồ" />
+                  <MapLink href={hotel.mapUrl} variant="button" label="Map" />
                 </div>
               </div>
             </RevealOnScroll>

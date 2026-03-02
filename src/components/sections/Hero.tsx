@@ -43,21 +43,21 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-2 text-center px-6 max-w-[680px]">
         <div className="inline-block text-[.7rem] font-semibold tracking-[.18em] uppercase text-accent-light border border-accent/35 rounded-full py-2 px-5.5 mb-8">
-          PPA Asia 2026 &mdash; Hà Nội, Việt Nam
+          PPA Asia 2026 &mdash; Hanoi, Vietnam
         </div>
         <h1 className="font-display font-bold text-[clamp(2.4rem,6vw,4.2rem)] leading-[1.1] text-white mb-5 tracking-tight">
           Welcome to <em className="italic text-accent-light">Hanoi</em>
         </h1>
         <p className="text-[clamp(.95rem,2vw,1.1rem)] text-white/65 leading-[1.7] max-w-[520px] mx-auto mb-10 font-light">
-          Cẩm nang hướng dẫn vận động viên đến Việt Nam tham gia giải đấu
-          Pickleball PPA Asia
+          An athlete's guide to visiting Vietnam for the PPA Asia Pickleball
+          Tournament
         </p>
         <a
           href="#welcome"
           onClick={scrollTo}
           className="inline-flex items-center gap-2 text-[.75rem] font-medium tracking-[.12em] uppercase text-white/45 no-underline transition-colors duration-300 hover:text-accent-light"
         >
-          Khám phá ngay
+          Discover now
           <svg
             width="16"
             height="16"
