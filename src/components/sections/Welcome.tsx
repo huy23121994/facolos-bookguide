@@ -15,7 +15,7 @@ export default function Welcome() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-15 items-center mt-12">
           <RevealOnScroll delay={1} className="relative rounded-2xl overflow-hidden aspect-[4/5] md:aspect-[4/5] max-w-[400px] md:max-w-none mx-auto md:mx-0">
             <img
-              src="https://images.unsplash.com/photo-1509030450996-dd1a26dda07a?w=600&q=80"
+              src="/images/place-van-mieu.jpg"
               alt="Hà Nội"
               loading="lazy"
               className="w-full h-full object-cover"

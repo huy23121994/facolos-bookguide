@@ -11,7 +11,7 @@ import Explore from "./components/sections/Explore";
 import Contact from "./components/sections/Contact";
 import ThankYou from "./components/sections/ThankYou";
 
-const sectionIds = ["hero", "welcome", "venue", "about", "hotels", "explore", "contact", "thanks"];
+const sectionIds = ["hero", "welcome", "venue", "about", "hotels", "explore", "thanks", "contact"];
 
 export default function App() {
   const stableSectionIds = useMemo(() => sectionIds, []);
@@ -27,8 +27,8 @@ export default function App() {
       <About />
       <Hotels />
       <Explore />
-      <Contact />
       <ThankYou />
+      <Contact />
       <footer className="bg-dark text-white/35 text-center py-6 px-5 pb-[calc(24px+env(safe-area-inset-bottom))] text-[.78rem] font-light">
         &copy; 2026 Facolos. All rights reserved.
       </footer>

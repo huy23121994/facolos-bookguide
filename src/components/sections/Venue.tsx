@@ -14,8 +14,8 @@ export default function Venue() {
         </RevealOnScroll>
         <RevealOnScroll delay={1} className="mt-10 bg-white rounded-[20px] overflow-hidden shadow-[0_2px_40px_rgba(0,0,0,.04)]">
           <img
-            className="w-full aspect-[21/9] object-cover block"
-            src="https://sovhtt.hanoi.gov.vn/wp-content/uploads/2022/05/dsc02481-600x400.jpg"
+            className="w-full aspect-[21/9] object-cover object-[100%_70%] block"
+            src="/images/venue.jpg"
             alt="Sân thi đấu"
             loading="lazy"
           />
@@ -30,7 +30,7 @@ export default function Venue() {
               Đây là "thánh đường" của điền kinh và các môn thể thao đỉnh cao
               tại Việt Nam. Với không gian thoáng đãng, cơ sở vật chất đạt
               chuẩn quốc tế, nơi đây thường xuyên tổ chức các giải đấu tầm cỡ
-              khu vực như SEA Games.
+              khu vực.
             </p>
             <div className="flex gap-5 md:gap-8 mt-7 flex-wrap">
               <div className="flex items-center gap-2.5 text-[.88rem] font-medium text-charcoal">
@@ -47,15 +47,21 @@ export default function Venue() {
                 </svg>
                 Chuẩn quốc tế
               </div>
-              <div className="flex items-center gap-2.5 text-[.88rem] font-medium text-charcoal">
+              <a
+                href="https://maps.app.goo.gl/vCgp494rdTtaDMHX7"
+                target="_blank"
+                rel="noopener"
+                className="flex items-center gap-2.5 text-[.88rem] font-medium text-accent-dark no-underline hover:text-charcoal transition-colors duration-200"
+              >
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-5 h-5 text-accent shrink-0">
-                  <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
-                  <circle cx="9" cy="7" r="4" />
-                  <path d="M23 21v-2a4 4 0 00-3-3.87" />
-                  <path d="M16 3.13a4 4 0 010 7.75" />
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
                 </svg>
-                SEA Games venue
-              </div>
+                Xem bản đồ
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="w-3.5 h-3.5">
+                  <path d="M7 17L17 7M17 7H7M17 7v10" />
+                </svg>
+              </a>
             </div>
           </div>
         </RevealOnScroll>

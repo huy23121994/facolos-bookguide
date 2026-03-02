@@ -19,7 +19,7 @@ export default function Hero() {
         className="absolute inset-0 opacity-35 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?w=1400&q=80')",
+            "url('/images/hero-ppa.jpg')",
         }}
       />
       {/* Gradient overlay */}
