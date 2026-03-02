@@ -30,7 +30,7 @@ export default function App() {
       <Contact />
       <ThankYou />
       <footer className="bg-dark text-white/35 text-center py-6 px-5 pb-[calc(24px+env(safe-area-inset-bottom))] text-[.78rem] font-light">
-        &copy; 2025 Facolos. All rights reserved.
+        &copy; 2026 Facolos. All rights reserved.
       </footer>
     </>
   );

@@ -43,7 +43,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-2 text-center px-6 max-w-[680px]">
         <div className="inline-block text-[.7rem] font-semibold tracking-[.18em] uppercase text-accent-light border border-accent/35 rounded-full py-2 px-5.5 mb-8">
-          PPA Asia 2025 &mdash; Hà Nội, Việt Nam
+          PPA Asia 2026 &mdash; Hà Nội, Việt Nam
         </div>
         <h1 className="font-display font-bold text-[clamp(2.4rem,6vw,4.2rem)] leading-[1.1] text-white mb-5 tracking-tight">
           Welcome to <em className="italic text-accent-light">Hanoi</em>

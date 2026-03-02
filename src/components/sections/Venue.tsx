@@ -15,7 +15,7 @@ export default function Venue() {
         <RevealOnScroll delay={1} className="mt-10 bg-white rounded-[20px] overflow-hidden shadow-[0_2px_40px_rgba(0,0,0,.04)]">
           <img
             className="w-full aspect-[21/9] object-cover block"
-            src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1200&q=80"
+            src="https://sovhtt.hanoi.gov.vn/wp-content/uploads/2022/05/dsc02481-600x400.jpg"
             alt="Sân thi đấu"
             loading="lazy"
           />
@@ -38,7 +38,7 @@ export default function Venue() {
                   <circle cx="12" cy="12" r="10" />
                   <path d="M12 6v6l4 2" />
                 </svg>
-                Thời gian: Sắp cập nhật
+                Thời gian: 01 – 05/04/2026
               </div>
               <div className="flex items-center gap-2.5 text-[.88rem] font-medium text-charcoal">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-5 h-5 text-accent shrink-0">
