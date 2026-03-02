@@ -14,7 +14,7 @@ export default function Venue() {
         </RevealOnScroll>
         <RevealOnScroll delay={1} className="mt-10 bg-white rounded-[20px] overflow-hidden shadow-[0_2px_40px_rgba(0,0,0,.04)]">
           <img
-            className="w-full aspect-[21/9] object-cover object-[100%_70%] block"
+            className="w-full aspect-auto object-contain md:aspect-[21/9] md:object-cover md:object-[100%_70%] block"
             src="/images/venue.jpg"
             alt="Competition venue"
             loading="lazy"
