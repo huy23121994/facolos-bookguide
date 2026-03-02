@@ -79,7 +79,7 @@ export default function BottomNav({ activeSection }: Props) {
             className={`flex flex-col items-center gap-0.5 no-underline text-[.6rem] font-medium tracking-[.04em] uppercase transition-colors duration-200 py-1.5 px-1 min-w-[52px] ${
               activeSection === section
                 ? "text-accent"
-                : "text-light-gray hover:text-accent"
+                : "text-mid-gray hover:text-accent"
             }`}
           >
             {icon}
