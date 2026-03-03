@@ -140,9 +140,33 @@ export default function Hotels() {
                   </svg>
                   {hotel.address}
                 </div>
-                <span className="inline-block text-[.82rem] font-semibold text-accent-dark bg-accent/10 py-1.5 px-3.5 rounded-full mb-4">
+                <span className="inline-block text-[.82rem] font-semibold text-accent-dark bg-accent/10 py-1.5 px-3.5 rounded-full mb-3">
                   {hotel.price}
                 </span>
+                <div className={`flex items-start gap-1.5 text-[.8rem] mb-4 ${hotel.laundry.available ? "text-emerald-600" : "text-red-400"}`}>
+                  {hotel.laundry.available ? (
+                    <>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="w-4 h-4 shrink-0 mt-0.5">
+                        <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                        <path d="M22 4L12 14.01l-3-3" />
+                      </svg>
+                      <span>Laundry service available</span>
+                    </>
+                  ) : (
+                    <>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="w-4 h-4 shrink-0 mt-0.5">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M15 9l-6 6M9 9l6 6" />
+                      </svg>
+                      <span>
+                        No laundry service
+                        {!hotel.laundry.available && hotel.laundry.nearby && (
+                          <> — nearby: <strong className="text-dark/70">{hotel.laundry.nearby}</strong></>
+                        )}
+                      </span>
+                    </>
+                  )}
+                </div>
                 <div>
                   <MapLink href={hotel.mapUrl} variant="button" label="Map" />
                 </div>

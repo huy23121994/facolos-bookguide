@@ -16,7 +16,7 @@ export default function Hero() {
     >
       {/* Background image */}
       <div
-        className="absolute inset-0 opacity-35 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 opacity-15 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
             "url('/images/hero-ppa.jpg')",
@@ -48,9 +48,21 @@ export default function Hero() {
         <h1 className="font-display font-bold text-[clamp(2.4rem,6vw,4.2rem)] leading-[1.1] text-white mb-5 tracking-tight">
           Welcome to <em className="italic text-accent-light">Hanoi</em>
         </h1>
-        <p className="text-[clamp(.95rem,2vw,1.1rem)] text-white/65 leading-[1.7] max-w-[520px] mx-auto mb-10 font-light">
-          An athlete's guide to visiting Vietnam for the PPA Asia Pickleball
-          Tournament
+        <p className="text-[clamp(.95rem,2vw,1.1rem)] text-white/75 leading-[1.7] max-w-[620px] mx-auto mb-4 font-light">
+          Handbook for Facolos Athletes and Partners Attending PPA Asia in Hanoi
+        </p>
+        <p className="text-[clamp(.85rem,1.8vw,1rem)] text-white/75 leading-[1.7] max-w-[620px] mx-auto mb-10 font-light">
+          Facolos officially becomes the Official Paddle Partner of the PPA Tour USA — the world's leading professional pickleball tour.
+          <br />
+          Register now to join the PPA Asia prize campaign:{" "}
+          <a
+            href="https://forms.gle/bxpDp1KBv2s7FRTB9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent-light font-bold text-lg underline underline-offset-4 decoration-accent/50 hover:decoration-accent transition-colors duration-300"
+          >
+            Register here
+          </a>
         </p>
         <a
           href="#welcome"

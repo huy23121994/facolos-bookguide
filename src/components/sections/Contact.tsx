@@ -25,9 +25,12 @@ export default function Contact() {
               <a href={`tel:${contact.phone.tel}`} className="text-accent-light no-underline font-medium transition-colors duration-200 hover:text-white">
                 {contact.phone.number}
               </a>
+              {contact.phone.note && (
+                <p className="text-[.78rem] text-white/35 mt-1">{contact.phone.note}</p>
+              )}
             </div>
           </RevealOnScroll>
-          <RevealOnScroll delay={2} className="flex gap-4 items-start p-7 rounded-2xl bg-white/4 border border-white/7 transition-colors duration-300 hover:bg-white/7">
+          <RevealOnScroll delay={2} className="flex gap-4 h-full items-start p-7 rounded-2xl bg-white/4 border border-white/7 transition-colors duration-300 hover:bg-white/7">
             <div className="w-12 h-12 rounded-xl bg-accent/15 flex items-center justify-center shrink-0">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-[22px] h-[22px] text-accent-light">
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />

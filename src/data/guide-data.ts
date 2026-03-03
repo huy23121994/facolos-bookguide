@@ -4,6 +4,7 @@ export interface Hotel {
   price: string;
   images: string[];
   mapUrl: string;
+  laundry: { available: true } | { available: false; nearby?: string };
 }
 
 export interface Place {
@@ -18,6 +19,7 @@ export interface FoodSpot {
   description: string;
   image: string;
   mapUrl: string;
+  branches?: { label: string; mapUrl: string }[];
 }
 
 export interface AboutCard {
@@ -36,6 +38,7 @@ export const hotels: Hotel[] = [
     price: "1,076,000 VND / night (~$43 USD)",
     images: ["/images/hotel-1.jpg"],
     mapUrl: "https://maps.app.goo.gl/wwfQBPJMFLca1R1N9",
+    laundry: { available: false, nearby: "Giặt Là Hương Laundry" },
   },
   {
     name: "Grand Dragon Hanoi Hotel",
@@ -43,6 +46,7 @@ export const hotels: Hotel[] = [
     price: "880,000 VND / night (~$35 USD)",
     images: ["/images/hotel-2.jpg"],
     mapUrl: "https://maps.app.goo.gl/xBPbRuiaKsodY4LQ6",
+    laundry: { available: true },
   },
   {
     name: "HB Serviced Apartment",
@@ -50,6 +54,7 @@ export const hotels: Hotel[] = [
     price: "863,000 VND / night (~$35 USD)",
     images: ["/images/hotel-3.jpg"],
     mapUrl: "https://maps.app.goo.gl/EE1yCeEDG7CnGeQF7",
+    laundry: { available: false },
   },
   {
     name: "22Housing Residence Suites",
@@ -57,6 +62,7 @@ export const hotels: Hotel[] = [
     price: "802,000 VND / night (~$32 USD)",
     images: ["/images/hotel-4.jpg"],
     mapUrl: "https://maps.app.goo.gl/mA9gZXG6Xki3cjv48",
+    laundry: { available: false },
   },
   {
     name: "Adeline Hotel",
@@ -64,6 +70,7 @@ export const hotels: Hotel[] = [
     price: "804,000 – 1,026,000 VND / night (~$32–41 USD)",
     images: ["/images/hotel-5.jpg"],
     mapUrl: "https://maps.app.goo.gl/fs7ZS7kqxckpKgZXA",
+    laundry: { available: true },
   },
   {
     name: "Sheraton Hanoi West",
@@ -71,6 +78,7 @@ export const hotels: Hotel[] = [
     price: "4,623,029 VND / night (~$185 USD)",
     images: ["/images/hotel-sheraton.jpg"],
     mapUrl: "https://maps.app.goo.gl/CYoC9WytyTQRWND27",
+    laundry: { available: true },
   },
   {
     name: "Vinhomes Skylake Hanoi — Gem Apartment",
@@ -78,6 +86,7 @@ export const hotels: Hotel[] = [
     price: "2,167,200 VND / night (~$87 USD)",
     images: ["/images/hotel-vinhomes.jpg"],
     mapUrl: "https://maps.app.goo.gl/GEpnJvdJj2XykCfq5",
+    laundry: { available: true },
   },
 ];
 
@@ -142,6 +151,26 @@ export const places: Place[] = [
 
 export const foodSpots: FoodSpot[] = [
   {
+    name: "Bếp Prime (Code \"Facolos\" — 10% off)",
+    description:
+      "A popular dining spot with a diverse menu, rich flavors, and refined cooking. The restaurant has a cozy, modern atmosphere — perfect for gatherings with friends.",
+    image: "/images/food-bep-prime.jpg",
+    mapUrl: "https://maps.app.goo.gl/AAUfXaXZ2MZr3u2z8",
+  },
+  {
+    name: "El Gaucho Steakhouse",
+    description:
+      "A famous steakhouse known for premium imported beef, prepared in authentic Argentine style.",
+    image: "/images/food-el-gaucho.jpg",
+    mapUrl: "https://maps.app.goo.gl/bVXD2HX2g4hGzwNa9",
+    branches: [
+      { label: "Ba Đình", mapUrl: "https://maps.app.goo.gl/bVXD2HX2g4hGzwNa9" },
+      { label: "Tràng Tiền", mapUrl: "https://maps.app.goo.gl/4Tb2Hd6ALxAp71mn7" },
+      { label: "Tây Hồ", mapUrl: "https://maps.app.goo.gl/kzpRPnxLLbzBTVZn6" },
+      { label: "Nhà Thờ Lớn", mapUrl: "https://maps.app.goo.gl/43YqGrjBn3j7b1m77" },
+    ],
+  },
+  {
     name: "Pho Thin Lo Duc",
     description:
       "Famous beef pho with rich broth and a unique stir-fried beef style.",
@@ -195,6 +224,9 @@ export const foodSpots: FoodSpot[] = [
     image: "/images/food-train-track.jpg",
     mapUrl: "https://maps.app.goo.gl/VhPS94qUGZaeVnN96",
   },
+];
+
+export const foodSpotsNearVenue: FoodSpot[] = [
   {
     name: "Lotteria My Dinh",
     description:
@@ -227,7 +259,7 @@ export const aboutCards: AboutCard[] = [
       "Facolos is a leading brand in professional Pickleball equipment, pioneering the modern sports movement in Vietnam.",
     addressLabel: "Hanoi Office:",
     address: "282 Nguyen Huy Tuong, Thanh Xuan District, Hanoi",
-    image: "/images/about-facolos.jpg",
+    image: "https://5.pik.vn/c7ba928b2b08b4162cef4027747c3516a958b4589fe270bf1fc5241840502008.webp",
     mapUrl: "https://maps.app.goo.gl/vt7AGNdy2fDrxtU28",
   },
   {
@@ -243,12 +275,13 @@ export const aboutCards: AboutCard[] = [
 
 export const contact = {
   phone: {
-    name: "Vo Tran Quynh Trang",
-    number: "0986 120 954",
-    tel: "0986120954",
+    name: "Viviana Le Thu Huyen",
+    number: "+84 203 2382",
+    tel: "+842032382",
+    note: "Whatsapp / Zalo",
   },
   email: {
     label: "Contact via email",
-    address: "Jessica@facolos.com",
+    address: "lethuhuyen1129@gmail.com",
   },
 };
