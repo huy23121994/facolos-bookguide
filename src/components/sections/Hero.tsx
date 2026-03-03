@@ -54,12 +54,12 @@ export default function Hero() {
         <p className="text-[clamp(.85rem,1.8vw,1rem)] text-white/75 leading-[1.7] max-w-[620px] mx-auto mb-10 font-light">
           Facolos officially becomes the Official Paddle Partner of the PPA Tour USA — the world's leading professional pickleball tour.
           <br />
-          Register now to join the PPA Asia prize campaign:{" "}
+          Register now to join the PPA Asia prize campaign:{" "} <br />
           <a
             href="https://forms.gle/bxpDp1KBv2s7FRTB9"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-accent-light font-bold text-lg underline underline-offset-4 decoration-accent/50 hover:decoration-accent transition-colors duration-300"
+            className="text-accent-light font-bold text-xl underline underline-offset-4 decoration-accent/50 hover:decoration-accent transition-colors duration-300"
           >
             Register here
           </a>
