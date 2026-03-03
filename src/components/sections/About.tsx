@@ -43,18 +43,19 @@ export default function About() {
 
         <RevealOnScroll delay={3}>
           <div className="mt-12 max-w-[680px] mx-auto text-center">
-            <p className="text-mid-gray text-[.95rem] leading-[1.8] font-light">
-              We always welcome our partners and customers to visit our office and factory to learn more about Facolos' operations, products, and direction.
+            <p className="text-charcoal text-[.95rem] leading-[1.8]">
+              We always welcome our partners and customers to visit our office and factory to learn more about Facolos' operations, products, and development direction.
             </p>
-            <p className="text-mid-gray text-[.95rem] leading-[1.8] font-light mt-3">
-              Please contact our hotline{" "}
+            <p className="text-charcoal text-[.95rem] leading-[1.8] mt-3">
+              Please fill in the form via the provided link so that we can receive your information and arrange a proper welcome:{" "}
               <a
-                href="tel:+842032382"
-                className="text-accent font-medium hover:underline"
+                href="https://forms.gle/E4W8EfMAcnmqsr6d6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent font-medium underline underline-offset-4 decoration-accent/50 hover:decoration-accent transition-colors duration-300"
               >
-                +84 203 2382
-              </a>{" "}
-              (Ms. Huy&#7873;n) to schedule a visit. Our team will arrange and guide you, giving you a clearer insight into our company.
+                Register here
+              </a>
             </p>
           </div>
         </RevealOnScroll>
