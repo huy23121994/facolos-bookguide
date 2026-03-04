@@ -147,6 +147,13 @@ export const places: Place[] = [
     image: "/images/place-dong-xuan.jpg",
     mapUrl: "https://maps.app.goo.gl/cGNhos2HooUEhDvW7",
   },
+  {
+    name: "Hoa Lo Prison",
+    description:
+      "A famous historical site in Hanoi, once used to detain revolutionary fighters during the French colonial era. Now a museum that helps visitors learn about Vietnam's struggle for independence.",
+    image: "/images/place-hoa-lo.jpg",
+    mapUrl: "https://maps.app.goo.gl/wPeiNBSszxFbgWQH7",
+  },
 ];
 
 export const foodSpots: FoodSpot[] = [
