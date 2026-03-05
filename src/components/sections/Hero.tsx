@@ -52,9 +52,9 @@ export default function Hero() {
           Handbook for Facolos Athletes and Partners Attending PPA Asia in Hanoi
         </p>
         <p className="text-[clamp(.85rem,1.8vw,1rem)] text-white/75 leading-[1.7] max-w-[620px] mx-auto mb-10 font-light">
-          Facolos officially becomes the Official Paddle Partner of the PPA Tour USA — the world's leading professional pickleball tour.
+          Facolos officially becomes the Official Paddle Partner of the PPA ASIA — the world's leading professional pickleball tour.
           <br />
-          Register now to join the PPA Asia prize campaign:{" "} <br />
+          Register now to join the PPA Asia prize bonus by Facolos:{" "} <br />
           <a
             href="https://forms.gle/bxpDp1KBv2s7FRTB9"
             target="_blank"

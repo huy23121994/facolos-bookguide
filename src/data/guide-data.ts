@@ -163,6 +163,14 @@ export const foodSpots: FoodSpot[] = [
       "A popular dining spot with a diverse menu, rich flavors, and refined cooking. The restaurant has a cozy, modern atmosphere — perfect for gatherings with friends.",
     image: "/images/food-bep-prime.jpg",
     mapUrl: "https://maps.app.goo.gl/AAUfXaXZ2MZr3u2z8",
+    branches: [
+      { label: "10 Tho Nhuom", mapUrl: "https://maps.app.goo.gl/4iYRUWzip4YadsoC7" },
+      { label: "132 Trung Hoa", mapUrl: "https://maps.app.goo.gl/8cwp5CWLmjJeqtVN8" },
+      { label: "38 Ham Long", mapUrl: "https://maps.app.goo.gl/4ACAqt7GLhTFRHZYA" },
+      { label: "12 Hang Dieu", mapUrl: "https://maps.app.goo.gl/8E9sDnqTs6QQD41v8" },
+      { label: "30 Nui Truc", mapUrl: "https://maps.app.goo.gl/wKHruvGcvai7bSB37" },
+      { label: "62 Nguyen Van Loc", mapUrl: "https://maps.app.goo.gl/RWRTEhbePKH6Nc2s7" },
+    ],
   },
   {
     name: "El Gaucho Steakhouse",
@@ -176,6 +184,20 @@ export const foodSpots: FoodSpot[] = [
       { label: "Tây Hồ", mapUrl: "https://maps.app.goo.gl/kzpRPnxLLbzBTVZn6" },
       { label: "Nhà Thờ Lớn", mapUrl: "https://maps.app.goo.gl/43YqGrjBn3j7b1m77" },
     ],
+  },
+  {
+    name: "Kasaya (Code \"Facolos\" — 10% off)",
+    description:
+      "A plant-based restaurant with fresh, healthy Vietnamese cuisine — perfect for health-conscious athletes.",
+    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=200&q=80",
+    mapUrl: "https://maps.app.goo.gl/BxydM9f9FG8AdpFr8",
+  },
+  {
+    name: "Bánh Tráng Phú Cường",
+    description:
+      "Famous Vietnamese rice paper rolls — a light, flavorful snack. Hotline: +84 7 7575 2525",
+    image: "https://emdoi.vn/wp-content/uploads/2025/06/banh-trang-phu-cuong-nguyen-hong-3.webp",
+    mapUrl: "https://maps.app.goo.gl/JSRoD5vcvuGuqHGy8",
   },
   {
     name: "Pho Thin Lo Duc",
@@ -270,6 +292,15 @@ export const aboutCards: AboutCard[] = [
     mapUrl: "https://maps.app.goo.gl/vt7AGNdy2fDrxtU28",
   },
   {
+    title: "Facolos Store by Thien Di",
+    description:
+      "An official, reputable, and modern shopping destination for Pickleball equipment in Hanoi.",
+    addressLabel: "Address:",
+    address: "17 Dai Co Viet, Hai Ba Trung District, Hanoi",
+    image: "https://5.pik.vn/8525afa48b9d1e7487f5c634eb60bf76873637e284dfa61c5b37e6b6477d4673.webp",
+    mapUrl: "https://maps.app.goo.gl/TnTixRYMfbyE2xNX7",
+  },
+  {
     title: "Pickle Global — Where Quality Begins",
     description:
       "Pickle Global's factory is a large-scale Pickleball equipment manufacturer, using cutting-edge technology to deliver products that meet international competition standards.",
@@ -283,8 +314,8 @@ export const aboutCards: AboutCard[] = [
 export const contact = {
   phone: {
     name: "Viviana Le Thu Huyen",
-    number: "+84 203 2382",
-    tel: "+842032382",
+    number: "+84 94 203 2382",
+    tel: "+84942032382",
     note: "Whatsapp / Zalo",
   },
   email: {
