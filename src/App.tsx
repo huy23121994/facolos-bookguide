@@ -10,6 +10,7 @@ import Hotels from "./components/sections/Hotels";
 import Explore from "./components/sections/Explore";
 import Contact from "./components/sections/Contact";
 import ThankYou from "./components/sections/ThankYou";
+import { Analytics } from "@vercel/analytics/next"
 
 const sectionIds = ["hero", "welcome", "venue", "about", "hotels", "explore", "thanks", "contact"];
 
@@ -19,6 +20,7 @@ export default function App() {
 
   return (
     <>
+      <Analytics />
       <TopNav activeSection={activeSection} />
       <BottomNav activeSection={activeSection} />
       <Hero />
